@@ -1,0 +1,65 @@
+﻿
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+.movie-item {
+    display: flex;
+    margin: 20px;
+   
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.movie-poster {
+    margin-right: 20px;
+    
+}
+
+.movie-details {
+    flex: 1;
+}
+
+.img {
+    width:300px;
+    height:420px;
+    border-radius:10px;
+}
+
+.pagination {
+    text-align: center;
+}

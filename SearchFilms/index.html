@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript HTML App</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <script src="app.js"></script>
+    <script src="Scripts/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+
+    <form id="movieForm">
+        <label for="movieTitle">Название фильма:</label>
+        <input type="text" id="movieTitle" name="movieTitle" required>
+
+        <label for="movieType">Тип фильма:</label>
+        <select id="movieType" name="movieType">
+            <option value="movie">Фильм</option>
+            <option value="series">Сериал</option>
+            <option value="episode">Эпизод</option>
+        </select>
+
+        <button type="submit">Отправить</button>
+    </form>
+
+
+    <div id="movieInfo">
+    </div>
+
+    <div id="notFoundMessage" style="display: none; text-align:center">
+        Movie not found!
+    </div>
+
+    <div id="pagination" style="display: none;" class="pagination">
+        <button id="prevPage">Previous</button>
+        <span id="pageInfo"></span>
+        <button id="nextPage">Next</button>
+    </div>
+
+</body>
+</html>
+
